@@ -37,7 +37,7 @@ class Index extends React.Component {
           <div
             className={`${css.jumbotron} ${css["mt-4"]} ${css["text-center"]}`}
           >
-            <h1 className={css["display-5"]}>CloneMarie's website</h1>
+            <h1 className={css["display-5"]}>CloneMarie&#39;s website</h1>
             <p className={css["lead"]}>Full-stack Web Engineer</p>
             <hr className={css["mt-4"]} />
           </div>
