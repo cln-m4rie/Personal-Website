@@ -6,8 +6,7 @@ import IndexHead from "../components/IndexHead";
 import List from "../components/List";
 
 class Index extends React.Component {
-  static async getInitialProps({ req }) {
-    const userAgent = req ? req.headers["user-agent"] : navigator.userAgent;
+  static async getInitialProps() {
     const skills = {
       frontends: {
         js: [
@@ -25,7 +24,7 @@ class Index extends React.Component {
         other: ["Nginx", "MySQL", "PostgreSQL", "Docker"]
       }
     };
-    return { userAgent, skills };
+    return { skills };
   }
 
   render() {
