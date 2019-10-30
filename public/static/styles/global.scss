@@ -1,0 +1,25 @@
+@import "~bootstrap/scss/bootstrap";
+@import "~@fortawesome/fontawesome-free/scss/fontawesome.scss";
+
+body {
+  background: #191919;
+  color: white;
+  font-family: "Raleway";
+}
+.jumbotron {
+  // height: auto;
+  // min-height: 100vh;
+  background: #191919;
+}
+hr {
+  background: #ababab;
+}
+
+.size-50 {
+  width: 50px;
+  height: 50px;
+}
+
+.footer {
+  background: #111111;
+}
